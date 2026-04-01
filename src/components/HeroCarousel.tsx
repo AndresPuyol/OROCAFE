@@ -6,7 +6,7 @@ import img3 from '../img/Fondocarrusel/fondocarrusel3.jpeg';
 import img5 from '../img/Fondocarrusel/fondocarrusel5.jpeg';
 import img6 from '../img/Fondocarrusel/carrusel10.jpeg';
 import img7 from '../img/Fondocarrusel/carrusel9.jpeg';
-import img8 from '../img/Fondocarrusel/carrusel7.jpeg';
+import img8 from '../img/Fondocarrusel/Carrusel7.jpeg';
 
 const images = [img2, img1, img7, img5, img6, img3, img8];
 
