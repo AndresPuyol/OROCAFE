@@ -1,0 +1,33 @@
+<div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <!-- Header Logo Area -->
+  <div style="background-color: #171717; padding: 40px; text-align: center;">
+    <h1 style="color: #e6b810; margin: 0; font-size: 32px; letter-spacing: 2px;">OROCAFE<span style="color: #ffffff; font-weight: normal;">&</span>CA</h1>
+    <p style="color: #ffffff; opacity: 0.8; margin-top: 15px; font-size: 16px; letter-spacing: 1px;">Nuevo Mensaje de Contacto</p>
+  </div>
+  
+  <!-- Body/Content -->
+  <div style="padding: 40px 30px; background-color: #fdfbf7;">
+    <h2 style="color: #171717; font-size: 22px; margin-bottom: 25px;">Hola Equipo Orocafé,</h2>
+    <p style="color: #525252; font-size: 16px; line-height: 1.6; margin-bottom: 30px;">Han recibido una nueva consulta desde la plataforma web oficial. Estos son los detalles capturados:</p>
+    
+    <div style="background-color: #ffffff; border-left: 4px solid #e6b810; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.03);">
+      <p style="margin: 0 0 15px 0;">
+        <strong style="color: #737373; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">Nombre Completo</strong><br>
+        <span style="color: #171717; font-size: 18px;">{{user_name}}</span>
+      </p>
+      <p style="margin: 0 0 15px 0;">
+        <strong style="color: #737373; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">Correo Electrónico a responder</strong><br>
+        <a href="mailto:{{user_email}}" style="color: #e6b810; text-decoration: none; font-size: 16px; font-weight: bold;">{{user_email}}</a>
+      </p>
+      <p style="margin: 0;">
+        <strong style="color: #737373; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">Mensaje Adjunto</strong><br>
+        <span style="color: #171717; font-size: 16px; white-space: pre-wrap; display: block; background: #fafafa; padding: 15px; margin-top: 10px; border-radius: 6px; border: 1px solid #f0f0f0;">{{message}}</span>
+      </p>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <div style="background-color: #171717; padding: 25px; text-align: center; border-top: 4px solid #e6b810;">
+    <p style="color: #737373; font-size: 12px; margin: 0; line-height: 1.5;">Este mensaje fue enviado y validado automáticamente<br> desde el formulario público de www.orocafeca.com</p>
+  </div>
+</div>
