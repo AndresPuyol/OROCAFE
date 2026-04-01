@@ -71,7 +71,7 @@ export default function Home() {
           >
             
           </motion.span>
-          <motion.h2
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
@@ -79,7 +79,7 @@ export default function Home() {
           >
             {t('home.hero.title1')}<br />
             <span className="text-gold italic">{t('home.hero.title2')}</span>
-          </motion.h2>
+          </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

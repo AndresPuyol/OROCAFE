@@ -98,7 +98,7 @@ export default function Products() {
           <div className="absolute inset-0 subpage-hero-gradient" />
         </div>
         <div className="relative z-10 text-center text-white mt-8 md:mt-0">
-          <SectionTitle className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold mb-4">{t('products.hero.title')}</SectionTitle>
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold mb-4">{t('products.hero.title')}</h1>
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto px-4">{t('products.hero.desc')}</p>
         </div>
       </section>

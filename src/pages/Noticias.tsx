@@ -21,9 +21,9 @@ export default function Noticias() {
           >
             <div className="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-bl-full z-0" />
             <div className="relative z-10">
-              <h2 className="text-4xl md:text-5xl font-serif font-bold text-neutral-900 tracking-tight">
+              <h1 className="text-4xl md:text-5xl font-serif font-bold text-neutral-900 tracking-tight">
                 {t('news.browsing')}
-              </h2>
+              </h1>
             </div>
           </motion.div>
 
