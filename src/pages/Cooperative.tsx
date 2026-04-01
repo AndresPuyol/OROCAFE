@@ -487,7 +487,7 @@ export default function Cooperative() {
           />
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a 
-              href="https://wa.me/573177604449"
+              href="https://wa.me/573112336243"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gold text-white px-12 py-5 font-bold uppercase text-sm tracking-widest hover:bg-gold-hover rounded-2xl transition-all shadow-xl hover:-translate-y-1 inline-flex justify-center items-center"

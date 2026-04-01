@@ -336,7 +336,7 @@ export default function Products() {
 
                   <div className="flex flex-wrap gap-4">
                     <a 
-                      href={`https://wa.me/573177604449?text=Hola,%20me%20gustaría%20ser%20notificado%20cuando%20lancen%20los%20productos%20TATAY%20Coffee`}
+                      href={`https://wa.me/573112336243?text=Hola,%20me%20gustaría%20ser%20notificado%20cuando%20lancen%20los%20productos%20TATAY%20Coffee`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-neutral-800 hover:bg-neutral-900 text-white px-10 py-4 rounded-2xl font-bold transition-all hover:shadow-xl hover:-translate-y-1 inline-flex w-fit items-center gap-2"
