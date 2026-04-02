@@ -11,7 +11,7 @@ export const translations = {
     // Home - Hero
     'home.hero.title1': 'El Verdadero Sabor',
     'home.hero.title2': 'del Sur del Huila',
-    'home.hero.desc': 'De las montañas de Timaná para el mundo. Más de 250 familias cultivando café y cacao con pasión, tradición y sostenibilidad.',
+    'home.hero.desc': 'De las montañas de Timaná para el mundo. Más de 250 familias cultivando café con pasión, tradición y sostenibilidad.',
     'home.hero.btn1': 'Descubre Nuestro Café',
     'home.hero.btn2': 'Conoce la Cooperativa',
     'home.hero.footer': 'Cooperativa Agrícola Café de Colombia - Mas de 56 años de la mano de nuestros caficultores',
@@ -310,7 +310,7 @@ export const translations = {
     // Home - Hero
     'home.hero.title1': 'The True Taste',
     'home.hero.title2': 'of Southern Huila',
-    'home.hero.desc': 'From the mountains of Timaná to the world. Over 250 families cultivating coffee and cocoa with passion, tradition, and sustainability.',
+    'home.hero.desc': 'From the mountains of Timaná to the world. Over 250 families cultivating coffee with passion, tradition, and sustainability.',
     'home.hero.btn1': 'Discover Our Coffee',
     'home.hero.btn2': 'Meet the Cooperative',
     'home.hero.footer': 'Agricultural Coffee Cooperative of Colombia',

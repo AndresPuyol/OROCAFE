@@ -15,8 +15,34 @@
     <meta property="og:image" content="https://orocafe-ca.com/logo.png" />
     
     <link rel="canonical" href="https://orocafe-ca.com/" />
-    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="icon" type="image/png" href="/src/img/logo.png" />
     <title>Orocafé Colombia | Café de Especialidad del Huila</title>
+
+    <!-- Structured Data: Organization (logo para Google) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Orocafé Colombia",
+      "url": "https://orocafe-ca.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://orocafe-ca.com/logo.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://www.instagram.com/orocafe.ca"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle 10 No. 2-64",
+        "addressLocality": "Timaná",
+        "addressRegion": "Huila",
+        "addressCountry": "CO"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
