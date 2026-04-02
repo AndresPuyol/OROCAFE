@@ -14,7 +14,7 @@ export const translations = {
     'home.hero.desc': 'De las montañas de Timaná para el mundo. Más de 250 familias cultivando café y cacao con pasión, tradición y sostenibilidad.',
     'home.hero.btn1': 'Descubre Nuestro Café',
     'home.hero.btn2': 'Conoce la Cooperativa',
-    'home.hero.footer': 'Cooperativa agrícola café y cacao de Colombia - Mas de 56 años de la mano de nuestros caficultores',
+    'home.hero.footer': 'Cooperativa Agrícola Café de Colombia - Mas de 56 años de la mano de nuestros caficultores',
     
     // Home - History
     'home.history.title': 'HISTORIA',
@@ -25,8 +25,8 @@ export const translations = {
     'home.history.section2.p': 'Nuestra capacidad operativa dio un salto cualitativo en 1994 con la apertura de una central de beneficio y secado en Neiva, Huila, centralizando una red de suministro eficiente para los departamentos de Huila y Tolima. Para 2005, nuestra huella se extendió a nivel nacional, gestionando cafés orgánicos de la Sierra Nevada de Santa Marta y perfiles estándar de alta calidad en Pereira y Popayán. Esta infraestructura nos permitió conectar el esfuerzo del campo colombiano con los tostadores más exigentes en los mercados internacionales.',
     'home.history.section3.title': 'Liderazgo Generacional e Impacto Social',
     'home.history.section3.p': 'En 2014, bajo la dirección de Neftalí Bermeo Estupiñán, consolidamos este esfuerzo histórico mediante la fundación de la Asociación Orocafe Timaná. Lo que comenzó como un grupo de 43 productores ha evolucionado hoy en una comunidad de 95 socios y 155 beneficiarios, impactando directamente la calidad de vida de 250 familias caficultoras. Nuestra presencia se extiende por el corazón productivo del Sur del Huila: Timaná, Tarqui, Mesa de Elías, Suaza, Oporapa, Pitalito, Acevedo y Guadalupe.',
-    'home.history.section4.title': 'Una Nueva Era: Cooperativa Agrícola Café y Cacao de Colombia',
-    'home.history.section4.p': 'Hoy, impulsados por nuestro crecimiento y la sofisticación de nuestras operaciones, hemos evolucionado. Transicionamos de asociación a Cooperativa Agrícola Café y Cacao de Colombia, una estructura más robusta y competitiva diseñada para garantizar consistencia, volumen y los más altos estándares de calidad a nuestros aliados comerciales en el exterior.',
+    'home.history.section4.title': 'Una Nueva Era: Cooperativa Agrícola Café de Colombia',
+    'home.history.section4.p': 'Hoy, impulsados por nuestro crecimiento y la sofisticación de nuestras operaciones, hemos evolucionado. Transicionamos de asociación a Cooperativa Agrícola Café de Colombia, una estructura más robusta y competitiva diseñada para garantizar consistencia, volumen y los más altos estándares de calidad a nuestros aliados comerciales en el exterior.',
     'home.history.footer': 'No solo vendemos café; exportamos la historia, el rigor técnico y el corazón de las familias que cultivan el mejor grano del mundo.',
     
     // Home - Features
@@ -79,7 +79,7 @@ export const translations = {
     'news.desc3': 'Comprometidos con el medio ambiente, presentamos nuestro nuevo empaque 100% compostable para toda la línea de cafés especiales, reduciendo nuestra huella de carbono...',
 
     // Footer
-    'footer.desc': 'Cooperativa agrícola café y cacao de Colombia. Transformando vidas a través del café de especialidad desde 2014 en el corazón del Huila.',
+    'footer.desc': 'Cooperativa Agrícola Café de Colombia. Transformando vidas a través del café de especialidad desde 2014 en el corazón del Huila.',
     'footer.links': 'Enlaces Rápidos',
     'footer.contact': 'Contacto',
     'footer.rights': 'Todos los derechos reservados.',
@@ -313,7 +313,7 @@ export const translations = {
     'home.hero.desc': 'From the mountains of Timaná to the world. Over 250 families cultivating coffee and cocoa with passion, tradition, and sustainability.',
     'home.hero.btn1': 'Discover Our Coffee',
     'home.hero.btn2': 'Meet the Cooperative',
-    'home.hero.footer': 'Agricultural cooperative of coffee and cocoa of Colombia',
+    'home.hero.footer': 'Agricultural Coffee Cooperative of Colombia',
     
     // Home - History
     'home.history.title': 'HISTORY',
@@ -324,8 +324,8 @@ export const translations = {
     'home.history.section2.p': 'Our operational capacity took a qualitative leap in 1994 with the opening of a processing and drying center in Neiva, Huila, centralizing an efficient supply chain for the Huila and Tolima departments. By 2005, our footprint expanded nationally, managing organic coffees from the Sierra Nevada de Santa Marta and high-quality standard profiles in Pereira and Popayán. This infrastructure allowed us to connect the effort of the Colombian countryside with the most demanding roasters in international markets.',
     'home.history.section3.title': 'Generational Leadership and Social Impact',
     'home.history.section3.p': 'In 2014, under the direction of Neftalí Bermeo Estupiñán, we consolidated this historical effort by founding the Orocafe Timaná Association. What began as a group of 43 producers has evolved today into a community of 95 members and 155 beneficiaries, directly impacting the quality of life of 250 coffee-growing families. Our presence extends through the productive heart of Southern Huila: Timaná, Tarqui, Mesa de Elías, Suaza, Oporapa, Pitalito, Acevedo, and Guadalupe.',
-    'home.history.section4.title': 'A New Era: Agricultural Cooperative of Coffee and Cocoa of Colombia',
-    'home.history.section4.p': 'Today, driven by our growth and the sophistication of our operations, we have evolved. We transitioned from an association to the Agricultural Cooperative of Coffee and Cocoa of Colombia, a more robust and competitive structure designed to guarantee consistency, volume, and the highest quality standards for our commercial allies abroad.',
+    'home.history.section4.title': 'A New Era: Agricultural Coffee Cooperative of Colombia',
+    'home.history.section4.p': 'Today, driven by our growth and the sophistication of our operations, we have evolved. We transitioned from an association to the Agricultural Coffee Cooperative of Colombia, a more robust and competitive structure designed to guarantee consistency, volume, and the highest quality standards for our commercial allies abroad.',
     'home.history.footer': 'We don\'t just sell coffee; we export the history, technical rigor, and heart of the families who grow the best beans in the world.',
     
     // Home - Features
@@ -378,7 +378,7 @@ export const translations = {
     'news.desc3': 'Committed to the environment, we present our new 100% compostable packaging for the entire line of specialty coffees, reducing our carbon footprint...',
 
     // Footer
-    'footer.desc': 'Agricultural cooperative of coffee and cocoa of Colombia. Transforming lives through specialty coffee since 2014 in the heart of Huila.',
+    'footer.desc': 'Agricultural Coffee Cooperative of Colombia. Transforming lives through specialty coffee since 2014 in the heart of Huila.',
     'footer.links': 'Quick Links',
     'footer.contact': 'Contact Us',
     'footer.rights': 'All rights reserved.',
