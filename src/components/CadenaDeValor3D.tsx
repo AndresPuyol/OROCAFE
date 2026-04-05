@@ -7,7 +7,7 @@ import imgCompra from '../img/ADN/caficultrocompra.jpeg';
 import imgTransporte from '../img/ADN/transporte.jpeg';
 import imgAlmacenaje from '../img/ADN/almacenamiento.jpeg';
 import imgTostion from '../img/ADN/TOSTION.jpeg';
-import imgComercializacion from '../img/comercio.jpeg';
+import imgComercializacion from '../img/cormecializacion.jpg';
 import { useLanguage } from '../contexts/LanguageContext';
 
 interface NodeCardProps {

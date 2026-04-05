@@ -8,13 +8,16 @@ import imgHeroContact from '../img/Cenicafe 1.jpg';
 import imgOficina1 from '../img/OFICINA1.jpeg';
 import imgOficina2 from '../img/OfICINa2.jpeg';
 import imgOficina3 from '../img/oficina3.jpeg';
+import imgOficina4 from '../img/oficina4.jpeg';
+import imgOficina5 from '../img/oficina 5.jpeg';
+import imgOficina6 from '../img/oficina 6.jpeg';
 
 export default function Contact() {
   const { t } = useLanguage();
   const formRef = useRef<HTMLFormElement>(null);
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [currentBg, setCurrentBg] = useState(0);
-  const offices = [imgOficina1, imgOficina2, imgOficina3];
+  const offices = [imgOficina1, imgOficina2, imgOficina3, imgOficina4, imgOficina5, imgOficina6];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -166,30 +169,37 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map Content Section - Converted to Offices slideshow */}
+      {/* Offices Title */}
+      <div className="bg-white py-14 text-center">
+        <span className="text-gold font-bold uppercase tracking-[0.3em] text-sm mb-3 block">{t('cont.offices.title')}</span>
+        <div className="w-16 h-1 bg-gold mx-auto rounded-full" />
+      </div>
+
+      {/* Offices Slideshow */}
       <section className="h-[70dvh] w-full relative overflow-hidden flex items-center justify-center">
         <div className="absolute inset-0 z-0 bg-transparent">
           {offices.map((img, index) => (
             <div
               key={index}
               className={`absolute inset-0 transition-opacity duration-[800ms] ease-in-out ${
-                index === currentBg ? 'opacity-100 z-10 shine-effect' : 'opacity-0 z-0'
+                index === currentBg ? 'opacity-100 z-10' : 'opacity-0 z-0'
               }`}
             >
               <img
                 src={img}
                 alt={`Office ${index + 1}`}
-                className={`w-full h-full object-cover brightness-50 transition-all duration-700 ${
-                  index === 2 ? 'object-[50%_85%]' : 'object-[50%_40%]'
+                className={`w-full h-full object-cover transition-all duration-700 ${
+                  index === 2 ? 'object-[50%_85%]' : index >= 3 ? 'object-[50%_75%]' : 'object-[50%_40%]'
                 }`}
+                style={{ filter: 'brightness(0.7) sepia(50%) saturate(0.6) contrast(1.2) grayscale(35%)' }}
               />
             </div>
           ))}
-          <div className="absolute inset-0 subpage-hero-gradient z-20 pointer-events-none" />
+          {/* Warm brown overlay for Caravela-style vintage feel */}
+          <div className="absolute inset-0 bg-[#3E2723]/25 z-20 pointer-events-none" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/25 z-20 pointer-events-none" />
         </div>
-        <div className="relative z-30 font-serif text-5xl md:text-7xl px-4 text-center font-bold text-white drop-shadow-2xl">
-          {t('cont.offices.title')}
-        </div>
+      
       </section>
     </div>
   );

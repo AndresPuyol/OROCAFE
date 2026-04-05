@@ -299,7 +299,7 @@ export default function Products() {
                           {/* Textos encima del banner */}
                           <div className="flex justify-between px-2 text-neutral-900 text-sm md:text-base tracking-wide">
                             <span>{t('products.pkg.roastedType')}</span>
-                            <span>{t('products.pkg.netWeight')}</span>
+                        
                           </div>
                           {/* Banner amarillo mostaza */}
                           <div className="w-full bg-[#dca81c] rounded-md px-4 py-3 md:px-6 md:py-4 flex justify-between items-center text-neutral-900">
@@ -311,14 +311,7 @@ export default function Products() {
                                 </div>
                               ))}
                             </div>
-                            <div className="flex items-center gap-4 md:gap-8">
-                              {p.packaging.weights.map((weight: string, idx: number) => (
-                                <div key={idx} className="flex items-center gap-2">
-                                  <div className="w-3 h-3 md:w-4 md:h-4 bg-rose-700 rounded-full" />
-                                  <span className="text-sm md:text-lg font-black uppercase">{weight}</span>
-                                </div>
-                              ))}
-                            </div>
+                           
                           </div>
                         </div>
                       )}

@@ -5,6 +5,7 @@ import { ArrowRight, Coffee, ShieldCheck, Leaf, Map as MapIcon, MapPin, Users, B
 import Map, { Marker, NavigationControl, Source, Layer } from 'react-map-gl/maplibre';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import HeroCarousel from '../components/HeroCarousel';
+import HeroRollingText from '../components/HeroRollingText';
 import fondoPrincipal from '../img/fondo-principal.jpg';
 import iconoGranos from '../img/TU_ICONO_GRANOS.png';
 import imgCafeterito from '../img/cafeterito.jpeg';
@@ -60,58 +61,9 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       {/* Hero Section */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center px-4 pt-32 pb-32 md:pt-40">
+      <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden hero-rolling-section">
         <HeroCarousel />
-
-        <div className="container mx-auto relative z-10 text-center text-white">
-          <motion.span
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="inline-block text-gold font-bold tracking-[0.3em] uppercase text-sm mb-6"
-          >
-            
-          </motion.span>
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-serif font-extrabold leading-[1.1] mb-8"
-          >
-            {t('home.hero.title1')}<br />
-            <span className="text-gold italic">{t('home.hero.title2')}</span>
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-            className="text-lg md:text-xl text-neutral-200 max-w-2xl mx-auto mb-12 leading-relaxed"
-          >
-            {t('home.hero.desc')}
-          </motion.p>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
-          >
-            <Link
-              to="/productos"
-              className="bg-gold hover:bg-gold-hover text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all hover:shadow-2xl hover:-translate-y-1 flex items-center justify-center gap-2"
-            >
-              {t('home.hero.btn1')} <Coffee size={20} />
-            </Link>
-            <Link
-              to="/cooperativa"
-              className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-10 py-4 rounded-2xl font-bold text-lg transition-all hover:-translate-y-1 flex items-center justify-center text-center"
-            >
-              {t('home.hero.btn2')}
-            </Link>
-          </motion.div>
-        </div>
-
-        <div className="absolute bottom-0 left-0 right-0 py-6 bg-neutral-900/80 backdrop-blur-sm text-white text-center font-serif italic text-xl border-t border-white/10">
-          {t('home.hero.footer')}
-        </div>
+        <HeroRollingText />
       </section>
 
       {/* History Section */}
@@ -302,13 +254,8 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 bg-gold/10 rounded-lg flex items-center justify-center text-gold">
-                    <Leaf size={20} />
-                  </div>
-                  <div>
-                    <p className="text-xs font-bold text-neutral-400 uppercase tracking-wider">{t('home.loc.soil.label')}</p>
-                    <p className="font-bold">{t('home.loc.soil.val')}</p>
-                  </div>
+                 
+              
                 </div>
               </div>
               <Link

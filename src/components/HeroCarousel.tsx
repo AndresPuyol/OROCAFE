@@ -1,14 +1,16 @@
 import { useState, useEffect } from 'react';
 
-import img1 from '../img/Fondocarrusel/fondocarrusel1.jpeg';
-import img2 from '../img/Fondocarrusel/fondocarrusel2.jpeg';
-import img3 from '../img/Fondocarrusel/fondocarrusel3.jpeg';
-import img5 from '../img/Fondocarrusel/fondocarrusel5.jpeg';
-import img6 from '../img/Fondocarrusel/carrusel10.jpeg';
-import img7 from '../img/Fondocarrusel/carrusel9.jpeg';
-import img8 from '../img/Fondocarrusel/Carrusel7.jpeg';
+import img1 from '../img/Fondocarrusel/1.jpeg';
+import img2 from '../img/Fondocarrusel/2.jpeg';
+import img3 from '../img/Fondocarrusel/3.jpeg';
+import img5 from '../img/Fondocarrusel/4.jpeg';
+import img6 from '../img/Fondocarrusel/6.jpg'; 
+import img7 from '../img/Fondocarrusel/7.jpg';
+import img8 from '../img/Fondocarrusel/8.jpeg';
+import img9 from '../img/Fondocarrusel/9.jpeg';
+import img10 from '../img/Fondocarrusel/10.jpeg';
 
-const images = [img2, img1, img7, img5, img6, img3, img8];
+const images = [img1, img2, img3, img5, img6, img7, img8, img9, img10];
 
 export default function HeroCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -35,6 +37,7 @@ export default function HeroCarousel() {
             src={img}
             alt={`Slide ${index + 1}`}
             className="w-full h-full object-cover object-center brightness-50"
+            style={{ objectPosition: '50% 50%' }}
           />
         </div>
       ))}

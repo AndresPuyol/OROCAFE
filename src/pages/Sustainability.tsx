@@ -1,6 +1,7 @@
 import SectionTitle from '../components/SectionTitle';
 import { motion } from 'motion/react';
 import { Leaf, Droplets, Wind, Sun, ShieldCheck, Heart, TreePine, Globe, Sprout, Users, CheckCircle, Cloud } from 'lucide-react';
+import { useState, useEffect } from 'react';
 import imgcertificado from '../img/cestificado.jpeg';
 import imgAbeja from '../img/abeja.jpeg';
 import imgYara from '../img/Logo carrusel/YARA.png';
@@ -9,10 +10,22 @@ import imgCafePractica from '../img/Logo carrusel/3-CAFE-Practices-White.jpg';
 import imgWWF from '../img/Logo carrusel/LOGO_WWF.png';
 import imgAbonoMUjer from '../img/Logo carrusel/AbonoMUJERES.jpeg';
 import imgEUDR from '../img/Logo carrusel/foto_EUDR.jpg';
+import imgCarrusel1 from '../img/carrusel1.jpeg';
+import imgCarrusel2 from '../img/carrusel 2.jpeg';
+import imgCarrusel3 from '../img/carrusel3.jpeg';
+import imgCarrusel5 from '../img/carrusel5.jpeg';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Sustainability() {
   const { t } = useLanguage();
+  const carruselImages = [imgCarrusel1, imgCarrusel2, imgCarrusel3, imgCarrusel5];
+  const [currentImg, setCurrentImg] = useState(0);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImg(prev => (prev + 1) % carruselImages.length);
+    }, 3500);
+    return () => clearInterval(interval);
+  }, [carruselImages.length]);
 
   const pillars = [
     {
@@ -113,41 +126,31 @@ export default function Sustainability() {
               </motion.div>
             ))}
           </div>
-
-          <div className="bg-neutral-900 rounded-[40px] md:rounded-[64px] overflow-hidden">
-            <div className="flex flex-col lg:flex-row items-center">
-              <div className="lg:w-1/2 p-8 md:p-10 lg:p-16">
-                <SectionTitle className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-white mb-8 leading-tight">{t('sus.cert.title')}</SectionTitle>
-                <p className="text-neutral-400 text-base md:text-lg mb-12 leading-relaxed">
-                  {t('sus.cert.desc')}
-                </p>
-                <div className="space-y-6">
-                  {[
-                    { icon: <ShieldCheck className="text-gold" />, title: t('sus.cert1') },
-                    { icon: <Droplets className="text-gold" />, title: t('sus.cert2') },
-                    { icon: <Wind className="text-gold" />, title: t('sus.cert3') },
-                  ].map((item, i) => (
-                    <div key={i} className="flex items-center gap-4">
-                      <div className="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center">
-                        {item.icon}
-                      </div>
-                      <span className="text-white font-bold">{item.title}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div className="lg:w-1/2 p-10 lg:p-16 flex items-center justify-center">
-                <div className="relative w-full max-w-[400px] aspect-[4/5] rounded-[32px] overflow-hidden shadow-2xl border border-neutral-800/50">
-                  <img
-                    src={imgcertificado}
-                    alt="Certificado de Sostenibilidad"
-                    className="w-full h-full object-cover object-center transform md:scale-110 transition-transform duration-300"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
+          <div className="rounded-[32px] md:rounded-[48px] overflow-hidden shadow-xl bg-neutral-900 flex flex-col md:flex-row min-h-[340px]">
+            {/* Imagen — sin distorsión gracias a object-cover en contenedor fijo */}
+            <div className="md:w-1/2 h-64 md:h-auto shrink-0 overflow-hidden">
+              <img
+                src={imgcertificado}
+                alt="Certificado de Sostenibilidad"
+                className="w-full h-full object-cover object-center scale-150 transform-gpu"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+            {/* Texto */}
+            <div className="md:w-1/2 p-8 md:p-12 flex flex-col justify-center gap-6">
+              <SectionTitle className="text-3xl sm:text-4xl font-serif font-bold text-white leading-tight">{t('sus.cert.title')}</SectionTitle>
+              <p className="text-neutral-400 sm:text-2xl md:text-2xl leading-relaxed">
+                {t('sus.cert.desc')}
+              </p>
+              <div className="space-y-4">
+              
+           
+                    <span className="text-white font-semibold sm:text-2xl md:text-2xl text-lg">{t('sus.cert1')}</span>
               </div>
             </div>
           </div>
+
+
         </div>
       </section>
 
@@ -162,7 +165,7 @@ export default function Sustainability() {
           </div>
 
           <style>{`
-            @keyframes marquee {
+            @keyframes marquee {  
               0% { transform: translateX(0); }
               100% { transform: translateX(-50%); }
             }
@@ -173,7 +176,7 @@ export default function Sustainability() {
               animation-play-state: paused;
             }
           `}</style>
-          
+
           <div className="mb-24 overflow-hidden marquee-container w-full relative">
             <div className="flex w-max animate-marquee py-4">
               {[...alianzas, ...alianzas, ...alianzas, ...alianzas].map((item, index) => (
@@ -197,63 +200,60 @@ export default function Sustainability() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-2 md:px-0">
-            <div className="relative overflow-hidden group bg-neutral-900 rounded-[32px] md:rounded-[64px] text-white shadow-xl hover:shadow-2xl transition-shadow duration-300 p-8 md:p-16 lg:p-20">
-              <div className="absolute inset-0 bg-neutral-950/50 mix-blend-multiply z-0"></div>
-              <img
-                src={imgAbonoMUjer}
-                alt="Mujeres caficultoras"
-                className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-300"
-                referrerPolicy="no-referrer"
-              />
-              <div className="relative z-10 flex flex-col h-full justify-between">
-                <div>
-                  <div className="w-14 h-14 md:w-16 md:h-16 bg-white/10 rounded-2xl flex items-center justify-center mb-8 backdrop-blur-sm border border-white/10">
-                    <Users size={28} className="text-amber-400" />
-                  </div>
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold mb-6">{t('sus.prog.title')}</h3>
-                  <p className="text-neutral-300 text-base md:text-lg leading-relaxed mb-8">
-                    {t('sus.prog.desc')}
-                  </p>
+
+            {/* Carrusel de imágenes — Filtro vintage estilo Caravela */}
+            <div className="relative rounded-2xl overflow-hidden shadow-xl h-[520px]">
+              {carruselImages.map((img, index) => (
+                <div
+                  key={index}
+                  className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${
+                    index === currentImg ? 'opacity-100 z-10' : 'opacity-0 z-0'
+                  }`}
+                >
+                  <img
+                    src={img}
+                    alt={`Orocafé ${index + 1}`}
+                    className="w-full h-full object-cover object-center"
+                    style={{ filter: 'brightness(0.75) sepia(45%) saturate(0.6) contrast(1.2) grayscale(30%)' }}
+                  />
                 </div>
-                <ul className="space-y-4 mt-auto">
-                  <li className="flex items-center gap-3"><CheckCircle className="text-amber-400" size={24} /> <span className="font-medium text-neutral-200">{t('sus.prog.li1')}</span></li>
-                  <li className="flex items-center gap-3"><CheckCircle className="text-amber-400" size={24} /> <span className="font-medium text-neutral-200">{t('sus.prog.li2')}</span></li>
-                  <li className="flex items-center gap-3"><CheckCircle className="text-amber-400" size={24} /> <span className="font-medium text-neutral-200">{t('sus.prog.li3')}</span></li>
-                  <li className="flex items-center gap-3"><CheckCircle className="text-amber-400" size={24} /> <span className="font-medium text-neutral-200">{t('sus.prog.li4')}</span></li>
-                </ul>
+              ))}
+              {/* Warm overlay for Caravela vintage feel */}
+              <div className="absolute inset-0 bg-[#482e20]/20 z-15 pointer-events-none" />
+              {/* Indicadores */}
+              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-20">
+                {carruselImages.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setCurrentImg(i)}
+                    className={`h-2 rounded-full transition-all duration-300 ${
+                      i === currentImg ? 'bg-white w-6' : 'bg-white/50 w-2'
+                    }`}
+                  />
+                ))}
               </div>
             </div>
 
-            <div className="relative overflow-hidden group bg-stone-900 rounded-[32px] md:rounded-[64px] text-white shadow-xl hover:shadow-2xl transition-shadow duration-300 p-8 md:p-16 lg:p-20">
-              <div className="relative z-10 flex flex-col h-full justify-between">
-                <div>
-                  <div className="w-14 h-14 md:w-16 md:h-16 bg-white/10 rounded-2xl flex items-center justify-center mb-8 backdrop-blur-sm border border-white/10">
-                    <Cloud size={28} className="text-amber-400" />
-                  </div>
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold mb-6">{t('sus.fert.title')}</h3>
-                  <p className="text-neutral-300 text-base md:text-lg leading-relaxed mb-10">
-                    {t('sus.fert.desc')}
-                  </p>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-10 border-t border-white/10 pt-10">
-                  <div>
-                    <div className="text-xl sm:text-2xl font-bold text-amber-400 mb-2">{t('sus.fert.soc')}</div>
-                    <p className="text-sm text-neutral-300 leading-relaxed">{t('sus.fert.soc.desc')}</p>
-                  </div>
-                  <div>
-                    <div className="text-xl sm:text-2xl font-bold text-amber-400 mb-2">{t('sus.fert.env')}</div>
-                    <p className="text-sm text-neutral-300 leading-relaxed">{t('sus.fert.env.desc')}</p>
-                  </div>
-                  <div>
-                    <div className="text-xl sm:text-2xl font-bold text-amber-400 mb-2">{t('sus.fert.eco')}</div>
-                    <p className="text-sm text-neutral-300 leading-relaxed">{t('sus.fert.eco.desc')}</p>
-                  </div>
-                </div>
+            {/* Texto del programa — fondo negro */}
+            <div className="bg-neutral-900 rounded-2xl p-8 md:p-12 flex flex-col justify-center gap-6 shadow-xl h-[520px]">
+              <div className="w-14 h-14 bg-white/10 rounded-xl flex items-center justify-center">
+                <Users size={28} className="text-amber-400" />
               </div>
+              <h3 className="text-2xl sm:text-3xl font-serif font-bold text-white leading-tight">{t('sus.prog.title')}</h3>
+              <p className="text-neutral-300 text-base leading-relaxed">
+                {t('sus.prog.desc')}
+              </p>
+              <ul className="space-y-4">
+                <li className="flex items-center gap-3"><CheckCircle className="text-amber-400 shrink-0" size={20} /> <span className="font-medium text-neutral-200">{t('sus.prog.li2')}</span></li>
+                <li className="flex items-center gap-3"><CheckCircle className="text-amber-400 shrink-0" size={20} /> <span className="font-medium text-neutral-200">{t('sus.prog.li3')}</span></li>
+                <li className="flex items-center gap-3"><CheckCircle className="text-amber-400 shrink-0" size={20} /> <span className="font-medium text-neutral-200">{t('sus.prog.li4')}</span></li>
+              </ul>
             </div>
 
           </div>
+
+
+
         </div>
       </section>
     </div>
