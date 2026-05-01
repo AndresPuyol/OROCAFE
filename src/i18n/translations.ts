@@ -7,7 +7,7 @@ export const translations = {
     'nav.contact': 'Contacto',
     'nav.join': 'Únete como Asociado',
     'nav.news': 'Noticias',
-    
+
     // Home - Hero
     'home.hero.title1': 'El Verdadero Sabor',
     'home.hero.title2': 'del Sur del Huila',
@@ -15,41 +15,41 @@ export const translations = {
     'home.hero.btn1': 'Descubre Nuestro Café',
     'home.hero.btn2': 'Conoce la Cooperativa',
     'home.hero.footer': 'Cooperativa Agrícola Café de Colombia - Mas de 56 años de la mano de nuestros caficultores',
-    
+
     // Home - History
     'home.history.title': 'HISTORIA',
     'home.history.subtitle': 'Nuestra Herencia: Tradición Familiar',
-    'home.history.section1.title': 'Cinco Décadas de Maestría Cafetera en el Sur de Huila municipio de Timaná Colombia',
-    'home.history.section1.p': 'El legado de nuestra organización se remonta al año de 1968, cuando el Sr. Neftalí Bermeo Jiménez —heredero de una profunda tradición — transformó la caficultura de Timaná, Huila. Como pionero en la comercialización de café siendo aliado estratégico de los principales exportadores del país y la Federación Nacional de Cafeteros de Colombia. ',
+    'home.history.section1.title': 'Cinco Décadas de tradicion cafetera en el Sur de Huila municipio de Timaná Colombia',
+    'home.history.section1.p': 'El legado de nuestra organización da inicio al año de 1968, cuando el Sr. Neftalí Bermeo Jiménez —heredero de una profunda tradición — transformó la caficultura de Timaná, Huila. Como pionero en la comercialización de café siendo aliado estratégico de los principales exportadores del país y la Federación Nacional de Cafeteros de Colombia. ',
     'home.history.section2.title': 'Logística y Expansión Estratégica',
     'home.history.section2.p': 'Nuestra capacidad operativa dio un salto en 1994 con la apertura de una central de secado de café húmedo en Neiva, Huila, para  aumentar su volumen de  compra y de esta forma poder abrir nuevas bodegas en otros municipios del Huila y Tolima  para dar mayor crecimiento a su comercialización y de esta forma  un  suministro de mayor tamaño y eficiencia para sus diferentes cliente en Colombia; Para 2005 nuestra huella se extendió a nivel nacional, comprando cafés orgánicos de la Sierra Nevada de Santa Marta, fincas en Pereira - Risaralda y Popayán - cauca. ',
     'home.history.section3.title': 'Liderazgo Generacional e Impacto Social',
     'home.history.section3.p': 'En 2014, su hijo de Neftalí Bermeo Estupiñán hace el relevo generacional a su Padre, dando inicio a una asociación la cual se crea con 43 productores, hoy una comunidad de 95 socios y 155 beneficiarios, impactando directamente la calidad de vida de 250 familias caficultoras. Nuestra presencia se extiende por la zona cafetera del Sur del Huila en los Municipios de: Timaná, Tarqui, Mesa de Elías, Suaza, Oporapa, Pitalito, Acevedo y Guadalupe.',
     'home.history.section4.title': 'Una Nueva Era: Cooperativa Agrícola Café y Cacao de Colombia',
-    'home.history.section4.p': 'Hoy, impulsados por nuestro crecimiento y la sofisticación de nuestras operaciones, hemos evolucionado. Hicimos la transición de asociación a Cooperativa una estructura más robusta y competitiva diseñada para garantizarles a nuestros clientes un mayor volumen con los más altos estándares de calidad de nuestros cafés diferenciados',
+    'home.history.section4.p': 'Hoy, impulsados por nuestro crecimiento e inovaciones en nuestras operaciones, hemos evolucionado. Hicimos la transición de asociación a Cooperativa una estructura más robusta y competitiva diseñada para garantizarles a nuestros clientes un mayor volumen con los más altos estándares de calidad de nuestros cafés diferenciados',
     'home.history.footer': 'No solo vendemos café, exportamos historia y tradición, donde la excelencia nace en el campo y se siente en la Taza',
-    
+
     // Home - Features
     'home.commitment.title': 'Nuestro Compromiso',
     'home.commitment.subtitle': 'Valores que nos definen y nos conectan con cada taza, desde la semilla hasta el consumidor final.',
     'home.feat1.title': 'Comercio Justo',
     'home.feat1.desc': 'Apoyo directo a 250 familias caficultoras garantizando precios justos y mejores condiciones de vida.',
     'home.feat2.title': 'Calidad de Origen',
-    'home.feat2.desc': '750 hectáreas de variedades premium cultivadas en las mejores condiciones del sur del Huila.',
+    'home.feat2.desc': '750 hectáreas de variedades premium cultivadas en las mejores montañas de los municipios del sur del Huila en Colombia.',
     'home.feat3.title': 'Sostenibilidad',
     'home.feat3.desc': 'Prácticas amigables con el medio ambiente que preservan nuestro territorio para futuras generaciones.',
-    
+
     // Home - Location
     'home.loc.families': 'Familias',
     'home.loc.tag': 'Corazón de Colombia',
     'home.loc.title': 'Cultivado en las Montañas del Huila',
-    'home.loc.desc': 'Nuestra cooperativa tiene su sede en Timaná, una región privilegiada con condiciones únicas: altitud ideal, suelos volcánicos ricos y un clima tropical de montaña perfecto para el café de especialidad.',
+    'home.loc.desc': 'Nuestra cooperativa tiene su Sede Principal en Timaná, Huila, una región privilegiada con condiciones únicas: altitud ideal, micro climas perfectos para producir café de especialidad.',
     'home.loc.alt.label': 'Altitud',
     'home.loc.alt.val': '1.150 - 2.000 msnm',
     'home.loc.soil.label': 'Suelos',
     'home.loc.soil.val': 'Volcánicos',
     'home.loc.link': 'Conoce más sobre nuestra tierra',
-    
+
     // Home - Varieties
     'home.var.title': 'Lo Mejor de Nuestra Tierra',
     'home.var.subtitle': 'Variedades premium cultivadas con el mejor cuidado, tradición y procesos de fermentación controlada.',
@@ -60,7 +60,7 @@ export const translations = {
     'home.var3.name': 'Geisha',
     'home.var3.desc': 'La joya de nuestra producción. Perfil floral intenso con notas a jazmín, bergamota y una acidez vibrante excepcional.',
     'home.var.link': 'Ver detalles',
-    
+
     // Home - CTA
     'home.cta.title': '¿Quieres probar el mejor café?',
     'home.cta.desc': 'Ponte en contacto con nosotros para pedidos nacionales e internacionales o para unirte a nuestra cooperativa.',
@@ -79,11 +79,11 @@ export const translations = {
     'news.desc3': 'Comprometidos con el medio ambiente, presentamos nuestro nuevo empaque 100% compostable para toda la línea de cafés especiales, reduciendo nuestra huella de carbono...',
 
     // Footer
-    'footer.desc': 'Cooperativa Agrícola Café de Colombia. Transformando vidas a través del café de especialidad desde 2014 en el corazón del Huila.',
+    'footer.desc': 'Cooperativa Agrícola Café y Cacao de Colombia. Transformando vidas a través del café de especialidad desde 2014 en el corazón del Huila.',
     'footer.links': 'Enlaces Rápidos',
     'footer.contact': 'Contacto',
     'footer.rights': 'Todos los derechos reservados.',
-    
+
     // 404
     '404.title': 'Página No Encontrada',
     '404.desc': '¡Ups! Parece que te has perdido en nuestra finca. La página que buscas no existe o ha sido movida.',
@@ -157,24 +157,24 @@ export const translations = {
     // Cooperative
     'coop.hero.tag': 'Nuestra Cooperativa',
     'coop.hero.title': 'La Excelencia en <br /><span className="italic text-gold">Cada Grano.</span>',
-    'coop.hero.desc': 'Somos una empresa Cooperativa donde contamos con más de 250 familias cafeteras, unidas por la pasión y el respeto a nuestra tierra.',
+    'coop.hero.desc': 'No solo vendemos café, exportamos historia y tradición, donde la excelencia nace en el campo y se siente en la Taza.',
     'coop.hero.stat1.lbl': 'Familias Cafeteras',
     'coop.hero.stat2.lbl': 'Origen Garantizado',
-    
+
     'coop.about.tag': 'Sobre Nosotros',
     'coop.about.title': 'QUIÉNES SOMOS',
     'coop.about.desc': 'Somos una empresa Cooperativa donde contamos con más de 250 FAMILIAS cafeteras entre asociados y beneficiarios quienes simultáneamente son aportantes y gestores de la entidad, tienen acceso a los diferentes servicios y programas de la asociación.',
-    
+
     'coop.pillar1.title': 'Acompañamiento Integral',
     'coop.pillar1.desc': 'Acompañamos al caficultor en las diferentes etapas de producción para que pueda mejorar la calidad y productividad de su café.',
     'coop.pillar2.title': 'Certificación Sostenible',
     'coop.pillar2.desc': 'Contamos con certificación RainForest Alliance producción sostenible que garantiza las buenas practicas agricolas, enfocadas en la proteccion de los recursos naturales, el bienestar economico y social de las familias cafeteras.',
     'coop.pillar3.title': 'Calidad Premium',
-    'coop.pillar3.desc': 'Producimos cafe Excelso, cafe pergamino, tostado; cafes especiales y Varietales donde el caficultor recibe un precio adicional al valor de su café por la calidad en taza.',
-    
+    'coop.pillar3.desc': 'Producimos cafe Excelso, cafe pergamino, tostado; cafes especiales, Lavados, Naturales y Varietales donde el caficultor recibe un precio adicional al valor de su café por la calidad en taza.',
+
     'coop.banks.title': 'Nuestros Bancos Aliados',
     'coop.banks.lbl': 'Aliado Financiero',
-    
+
     'coop.team.tag': 'Nuestro Talento',
     'coop.team.title': 'Conoce al equipo',
     'coop.role.mgr': 'Gerente',
@@ -184,7 +184,7 @@ export const translations = {
     'coop.role.admin': 'Auxiliar Contable y Administrativa',
     'coop.role.aux': 'Auxiliar de Calidades',
     'coop.role.coord': 'Coordinador Silos y Patios de Secado de Café',
-    
+
     'coop.serv.tag': 'Procesos de Calidad',
     'coop.serv.title': 'Nuestros Servicios',
     'coop.serv.desc': 'Cuidamos cada detalle en el procesamiento de nuestro café para garantizar la mejor tasa, de arriba hacia abajo.',
@@ -195,8 +195,8 @@ export const translations = {
     'coop.serv3.title': 'Secado',
     'coop.serv3.desc': 'Utilizamos un secado natural al sol y maquinaria para el secado del café.',
     'coop.serv4.title': 'Catación',
-    'coop.serv4.desc': 'Nuestro laboratorio evalúa la calidad y características de cada uno de los lotes de café; resaltando de cada uno de ellos su fragancia. Aroma, dulzor, acidez, cuerpo y uniformidad.',  
-    
+    'coop.serv4.desc': 'Nuestro laboratorio evalúa la calidad y características de cada uno de los lotes de café; resaltando de cada uno de ellos su fragancia. Aroma, dulzor, acidez, cuerpo y uniformidad.',
+
     'coop.spec.main.title': 'Nuestra Selección Especial',
     'coop.spec.main.desc': 'Ofrecemos una gama diversa para los paladares más exigentes, desde el grano verde hasta el tostado final.',
     'coop.spec.exc.title': 'Café Excelso',
@@ -206,7 +206,7 @@ export const translations = {
     'coop.spec.sus.tag': 'Sostenibilidad',
     'coop.spec.sus.title': 'Certificación Rainforest Alliance',
     'coop.spec.sus.desc': 'Nuestra producción no solo busca la calidad, sino la preservación de los ecosistemas y el bienestar social.',
-    
+
     'coop.cta.title': 'Únete a nuestra <br />historia cafetera',
     'coop.cta.btn1': 'Contactar Cooperativa',
     'coop.cta.btn2': 'Nuestros Productos',
@@ -226,7 +226,7 @@ export const translations = {
     'sus.val.tag': 'Valores que nos definen',
     'sus.val.title': 'Un Legado para el Futuro',
     'sus.val.desc': 'No solo producimos café; cuidamos el ecosistema que nos permite hacerlo y honramos el trabajo de quienes lo cultivan.',
-    
+
     'sus.pillar1.title': 'Medio Ambiente',
     'sus.pillar1.desc': 'Protegemos la biodiversidad mediante prácticas agrícolas regenerativas y el uso responsable de los recursos naturales.',
     'sus.pillar2.title': 'Impacto Social',
@@ -242,7 +242,7 @@ export const translations = {
 
     'sus.proj.tag': 'Proyecto Especial',
     'sus.proj.title': 'Alianza con nuestros clientes por un café sostenible',
-    
+
     'sus.ali1.title': 'RAINFOREST',
     'sus.ali1.desc': 'Lidera la investigación forestal y la reforestación táctica, garantizando la recuperación de bosques.',
     'sus.ali2.title': 'Café Practices',
@@ -272,10 +272,10 @@ export const translations = {
     // Contact
     'cont.hero.title': 'Ponte en Contacto',
     'cont.hero.desc': 'Estamos aquí para responder a todas tus consultas.',
-    
+
     'cont.info.title': 'Información de Contacto',
     'cont.info.desc': 'En el corazón de Colombia, trabajamos mano a mano con nuestros caficultores para entregar el mejor producto al mundo.',
-    
+
     'cont.lbl.address': 'Dirección',
     'cont.val.address': 'CALLE 10 No. 2-64 Timaná-Huila',
     'cont.lbl.phone': 'Teléfono',
@@ -305,7 +305,7 @@ export const translations = {
     'nav.contact': 'Contact',
     'nav.join': 'Join as Partner',
     'nav.news': 'News',
-    
+
     // Home - Hero
     'home.hero.title1': 'The True Taste',
     'home.hero.title2': 'of Southern Huila',
@@ -313,41 +313,41 @@ export const translations = {
     'home.hero.btn1': 'Discover Our Coffee',
     'home.hero.btn2': 'Meet the Cooperative',
     'home.hero.footer': 'Agricultural Coffee Cooperative of Colombia',
-    
+
     // Home - History
     'home.history.title': 'HISTORY',
     'home.history.subtitle': 'Our Heritage: From Family Tradition to Global Excellence',
-    'home.history.section1.title': 'Five Decades of Coffee Mastery in Southern Colombia',
-    'home.history.section1.p': 'Our organization\'s legacy dates back to 1968 when Mr. Neftalí Bermeo Jiménez—heir to a deep coffee-growing tradition—transformed the agricultural scene of Timaná, Huila. As a pioneer in the marketing of parchment coffee and a strategic ally to the country\'s main exporters and the National Federation of Coffee Growers, he laid the foundations for an associative model focused on local producer prosperity.',
+    'home.history.section1.title': 'Five Decades of Coffee tradition in Southern Colombia',
+    'home.history.section1.p': 'Our organization\'s legacy goes back to 1968 when Mr. Neftalí Bermeo Jiménez—heir to a deep coffee-growing tradition—transformed the agricultural scene of Timaná, Huila. As a pioneer in the marketing of parchment coffee and a strategic ally to the country\'s main exporters and the National Federation of Coffee Growers, he laid the foundations for an associative model focused on local producer prosperity.',
     'home.history.section2.title': 'Logistics and Strategic Expansion',
     'home.history.section2.p': 'Our operational capacity took a qualitative leap in 1994 with the opening of a processing and drying center in Neiva, Huila, centralizing an efficient supply chain for the Huila and Tolima departments. By 2005, our footprint expanded nationally, managing organic coffees from the Sierra Nevada de Santa Marta and high-quality standard profiles in Pereira and Popayán. This infrastructure allowed us to connect the effort of the Colombian countryside with the most demanding roasters in international markets.',
     'home.history.section3.title': 'Generational Leadership and Social Impact',
     'home.history.section3.p': 'In 2014, under the direction of Neftalí Bermeo Estupiñán, we consolidated this historical effort by founding the Orocafe Timaná Association. What began as a group of 43 producers has evolved today into a community of 95 members and 155 beneficiaries, directly impacting the quality of life of 250 coffee-growing families. Our presence extends through the productive heart of Southern Huila: Timaná, Tarqui, Mesa de Elías, Suaza, Oporapa, Pitalito, Acevedo, and Guadalupe.',
     'home.history.section4.title': 'A New Era: Agricultural Coffee Cooperative of Colombia',
-    'home.history.section4.p': 'Today, driven by our growth and the sophistication of our operations, we have evolved. We transitioned from an association to the Agricultural Coffee Cooperative of Colombia, a more robust and competitive structure designed to guarantee consistency, volume, and the highest quality standards for our commercial allies abroad.',
+    'home.history.section4.p': 'Today, driven by our growth and the inovations in our operations, we have evolved. We transitioned from an association to the Agricultural Coffee Cooperative of Colombia, a more robust and competitive structure designed to guarantee consistency, volume, and the highest quality standards for our commercial allies abroad.',
     'home.history.footer': 'We don\'t just sell coffee; we export the history, technical rigor, and heart of the families who grow the best beans in the world.',
-    
+
     // Home - Features
     'home.commitment.title': 'Our Commitment',
     'home.commitment.subtitle': 'Values that define us and connect us to every cup, from seed to final consumer.',
     'home.feat1.title': 'Fair Trade',
     'home.feat1.desc': 'Direct support to 250 coffee-producing families, guaranteeing fair prices and better living conditions.',
     'home.feat2.title': 'Quality Origin',
-    'home.feat2.desc': '750 hectares of premium varieties cultivated in the best conditions of southern Huila.',
+    'home.feat2.desc': '750 hectares of premium varieties cultivated in the best mountains of the municipalities of Southern Huila in Colombia.',
     'home.feat3.title': 'Sustainability',
     'home.feat3.desc': 'Environmentally friendly practices that preserve our land for future generations.',
-    
+
     // Home - Location
     'home.loc.families': 'Families',
     'home.loc.tag': 'Heart of Colombia',
     'home.loc.title': 'Cultivated in the Mountains of Huila',
-    'home.loc.desc': 'Our cooperative is headquartered in Timaná, a privileged region with unique conditions: ideal altitude, rich volcanic soils, and a tropical mountain climate perfect for specialty coffee.',
+    'home.loc.desc': 'Our cooperative is headquartered in Timaná, Huila, a privileged region with unique conditions: ideal altitude, perfect microclimates for producing specialty coffee.',
     'home.loc.alt.label': 'Altitude',
     'home.loc.alt.val': '1,300 - 1,900 masl',
     'home.loc.soil.label': 'Soils',
     'home.loc.soil.val': 'Volcanic',
     'home.loc.link': 'Learn more about our land',
-    
+
     // Home - Varieties
     'home.var.title': 'The Best of Our Land',
     'home.var.subtitle': 'Premium varieties cultivated with the best care, tradition, and controlled fermentation processes.',
@@ -358,7 +358,7 @@ export const translations = {
     'home.var3.name': 'Geisha',
     'home.var3.desc': 'The jewel of our production. Intense floral profile with jasmine and bergamot notes, and an exceptionally vibrant acidity.',
     'home.var.link': 'View details',
-    
+
     // Home - CTA
     'home.cta.title': 'Want to try the best coffee?',
     'home.cta.desc': 'Get in touch with us for national and international orders or to join our cooperative.',
@@ -377,11 +377,11 @@ export const translations = {
     'news.desc3': 'Committed to the environment, we present our new 100% compostable packaging for the entire line of specialty coffees, reducing our carbon footprint...',
 
     // Footer
-    'footer.desc': 'Agricultural Coffee Cooperative of Colombia. Transforming lives through specialty coffee since 2014 in the heart of Huila.',
+    'footer.desc': 'Agricultural Coffee and Cocoa Cooperative of Colombia. Transforming lives through specialty coffee since 2014 in the heart of Huila.',
     'footer.links': 'Quick Links',
     'footer.contact': 'Contact Us',
     'footer.rights': 'All rights reserved.',
-    
+
     // 404
     '404.title': 'Page Not Found',
     '404.desc': 'Oops! It looks like you got lost in our farm. The page you are looking for does not exist or has been moved.',
@@ -455,24 +455,24 @@ export const translations = {
     // Cooperative
     'coop.hero.tag': 'Our Cooperative',
     'coop.hero.title': 'Excellence in <br /><span className="italic text-gold">Every Bean.</span>',
-    'coop.hero.desc': 'We are a Cooperative enterprise with over 250 coffee-growing families, united by passion and respect for our land.',
+    'coop.hero.desc': 'We don\'t just sell coffee, we export history and tradition, where excellence is born in the field and felt in the Cup.',
     'coop.hero.stat1.lbl': 'Coffee Families',
     'coop.hero.stat2.lbl': 'Guaranteed Origin',
-    
+
     'coop.about.tag': 'About Us',
     'coop.about.title': 'WHO WE ARE',
     'coop.about.desc': 'We are an associative enterprise with more than 250 coffee-growing FAMILIES between associates and beneficiaries who are simultaneously contributors and managers of the entity, having access to the different services and programs of the association.',
-    
+
     'coop.pillar1.title': 'Comprehensive Support',
     'coop.pillar1.desc': 'We accompany the coffee grower in the different production stages so they can improve the quality and productivity of their coffee.',
     'coop.pillar2.title': 'Sustainable Certification',
     'coop.pillar2.desc': 'We have RainForest Alliance sustainable production certification that guarantees good agricultural practices, focused on the protection of natural resources, and the economic and social well-being of coffee families.',
     'coop.pillar3.title': 'Premium Quality',
-    'coop.pillar3.desc': 'We produce Excelso coffee, parchment coffee, roasted coffee; specialty coffees and Varietals where the coffee grower receives an additional price to the value of their coffee for the cup quality.',
-    
+    'coop.pillar3.desc': 'We produce Excelso coffee, parchment coffee, roasted coffee; specialty coffees, Washed, Natural and Varietals where the coffee grower receives an additional price to the value of their coffee for the cup quality.',
+
     'coop.banks.title': 'Our Allied Banks',
     'coop.banks.lbl': 'Financial Ally',
-    
+
     'coop.team.tag': 'Our Talent',
     'coop.team.title': 'Meet the team',
     'coop.role.mgr': 'Manager',
@@ -482,7 +482,7 @@ export const translations = {
     'coop.role.admin': 'Administrative Assistant',
     'coop.role.aux': 'Quality Assistant',
     'coop.role.coord': 'Coffee Silos and Drying Patios Coordinator',
-    
+
     'coop.serv.tag': 'Quality Processes',
     'coop.serv.title': 'Our Services',
     'coop.serv.desc': 'We take care of every detail in the processing of our coffee to guarantee the best cup, from top to bottom.',
@@ -494,7 +494,7 @@ export const translations = {
     'coop.serv3.desc': 'We use natural sun drying and machinery for coffee drying.',
     'coop.serv4.title': 'Cupping',
     'coop.serv4.desc': 'Our laboratory evaluates the quality and characteristics of each coffee lot, highlighting the fragrance, aroma, sweetness, acidity, body, and uniformity of each one.',
-    
+
     'coop.spec.main.title': 'Our Special Selection',
     'coop.spec.main.desc': 'We offer a diverse range for the most demanding palates, from green beans to the final roast.',
     'coop.spec.exc.title': 'Excelso Coffee',
@@ -504,7 +504,7 @@ export const translations = {
     'coop.spec.sus.tag': 'Sustainability',
     'coop.spec.sus.title': 'Rainforest Alliance Certification',
     'coop.spec.sus.desc': 'Our production seeks not only quality but also the preservation of ecosystems and social well-being.',
-    
+
     'coop.cta.title': 'Join our <br />coffee history',
     'coop.cta.btn1': 'Contact Cooperative',
     'coop.cta.btn2': 'Our Products',
@@ -524,7 +524,7 @@ export const translations = {
     'sus.val.tag': 'Values that define us',
     'sus.val.title': 'A Legacy for the Future',
     'sus.val.desc': 'We do not only produce coffee; we care for the ecosystem that allows us to do so and honor the work of those who grow it.',
-    
+
     'sus.pillar1.title': 'Environment',
     'sus.pillar1.desc': 'We protect biodiversity through regenerative agricultural practices and the responsible use of natural resources.',
     'sus.pillar2.title': 'Social Impact',
@@ -540,7 +540,7 @@ export const translations = {
 
     'sus.proj.tag': 'Special Project',
     'sus.proj.title': 'Alliance with our clients for sustainable coffee',
-    
+
     'sus.ali1.title': 'RAINFOREST',
     'sus.ali1.desc': 'Leads forest research and tactical reforestation, ensuring forest recovery.',
     'sus.ali2.title': 'Café Practices',
@@ -571,10 +571,10 @@ export const translations = {
     // Contact
     'cont.hero.title': 'Get In Touch',
     'cont.hero.desc': 'We are here to answer all your inquiries.',
-    
+
     'cont.info.title': 'Contact Information',
     'cont.info.desc': 'In the heart of Colombia, we work hand in hand with our coffee farmers to deliver the best product to the world.',
-    
+
     'cont.lbl.address': 'Address',
     'cont.val.address': 'CALLE 10 No. 2-64 Timaná-Huila',
     'cont.lbl.phone': 'Phone',

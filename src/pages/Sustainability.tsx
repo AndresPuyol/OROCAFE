@@ -53,12 +53,6 @@ export default function Sustainability() {
       color: "text-emerald-800"
     },
     {
-      img: imgCafePractica,
-      title: t('sus.ali2.title'),
-      desc: t('sus.ali2.desc'),
-      color: "text-emerald-800"
-    },
-    {
       img: imgWWF,
       title: t('sus.ali3.title'),
       desc: t('sus.ali3.desc'),
@@ -81,7 +75,7 @@ export default function Sustainability() {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="relative h-[50dvh] lg:min-h-[500px] flex items-center justify-center px-4">
+      <section className="relative h-[50dvh] lg:min-h-[500px] flex items-end justify-start px-8 md:px-16 pb-14">
         <div className="absolute inset-0 z-0">
           <img
             src={imgAbeja}
@@ -91,11 +85,11 @@ export default function Sustainability() {
           />
           <div className="absolute inset-0 subpage-hero-gradient" />
         </div>
-        <div className="relative z-10 text-center text-white mt-8 md:mt-0">
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold mb-4 flex flex-col items-center justify-center">
+        <div className="relative z-10 text-left text-white max-w-2xl">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold mb-4">
             <span className="block text-[#e6b810]">{t('sus.hero.title')}</span>
           </h1>
-          <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto px-4">{t('sus.hero.desc')}</p>
+          <p className="text-lg md:text-xl text-white/80">{t('sus.hero.desc')}</p>
         </div>
       </section>
 

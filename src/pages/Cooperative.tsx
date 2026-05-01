@@ -76,7 +76,7 @@ export default function Cooperative() {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="relative min-h-[85dvh] lg:min-h-[700px] flex items-center overflow-hidden py-24 md:py-0">
+      <section className="relative min-h-[85dvh] lg:min-h-[700px] flex items-end justify-start px-8 md:px-16 pb-14">
         <div className="absolute inset-0 z-0">
           <img
             src={fondoCooperativa}
@@ -84,25 +84,13 @@ export default function Cooperative() {
             className="w-full h-full object-cover object-[50%_85%] brightness-75"
             referrerPolicy="no-referrer"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-neutral-900/80 to-transparent"></div>
+          <div className="absolute inset-0 subpage-hero-gradient" />
         </div>
-
-        <div className="container mx-auto px-4 relative z-10">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="max-w-2xl px-2 md:px-8"
-          >
-
-            <span className="text-gold font-bold tracking-[0.4em] uppercase text-sm mb-6 block drop-shadow-md">
-              {t('coop.hero.tag')}
-            </span>
-            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white font-serif font-bold leading-[1.1] mb-8 drop-shadow-lg" dangerouslySetInnerHTML={{ __html: t('coop.hero.title') }} />
-            <p className="text-white/90 text-base md:text-xl max-w-lg leading-relaxed font-light mb-10 drop-shadow-md">
-              {t('coop.hero.desc')}
-            </p>
-          </motion.div>
+        <div className="relative z-10 text-left text-white max-w-2xl">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold mb-4">
+            <span className="block text-[#e6b810]">{t('coop.hero.tag')}</span>
+          </h1>
+          <p className="text-lg md:text-xl text-white/80">{t('coop.hero.desc')}</p>
         </div>
 
         {/* Stats Overlay */}
@@ -122,7 +110,7 @@ export default function Cooperative() {
               <div className="flex flex-col items-center">
                 {/* Contenedor del número */}
                 <div className="text-5xl font-serif text-gold font-bold whitespace-nowrap flex">
-                  CAFE 100%
+                  CAFE DE  
                 </div>
 
 
@@ -138,7 +126,7 @@ export default function Cooperative() {
       <section className="py-32 bg-white relative overflow-hidden">
 
         <div
-          className="absolute top-0 left-0 w-full h-full pointer-events-none opacity-10 md:opacity-20 mix-blend-multiply grayscale"
+          className="absolute top-0 left-0 w-full h-full pointer-events-none opacity-[0.04] md:opacity-[0.07] mix-blend-multiply grayscale"
           style={{
             backgroundImage: `url(${imgCafeterito})`,
             backgroundPosition: 'left top',

@@ -87,7 +87,7 @@ export default function Products() {
 
   return (
     <div className="pt-20">
-      <section className="relative h-[40dvh] flex items-center justify-center px-4">
+      <section className="relative h-[60dvh] flex items-end justify-start px-8 md:px-16 pb-14">
         <div className="absolute inset-0 z-0">
           <img
             src={imgFondoProducto}
@@ -97,9 +97,9 @@ export default function Products() {
           />
           <div className="absolute inset-0 subpage-hero-gradient" />
         </div>
-        <div className="relative z-10 text-center text-white mt-8 md:mt-0">
+        <div className="relative z-10 text-left text-white max-w-2xl">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold mb-4">{t('products.hero.title')}</h1>
-          <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto px-4">{t('products.hero.desc')}</p>
+          <p className="text-lg md:text-xl text-white/80">{t('products.hero.desc')}</p>
         </div>
       </section>
 

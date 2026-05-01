@@ -1,6 +1,6 @@
 import SectionTitle from '../components/SectionTitle';
 import { motion } from 'motion/react';
-import { MapPin, Phone, Mail, Clock, Send, MessageSquare } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Send, MessageSquare, Instagram, Facebook } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
@@ -101,6 +101,46 @@ export default function Contact() {
                     </div>
                   ))}
                 </div>
+
+                {/* Social Media Buttons */}
+                <div className="flex gap-5 mt-10 pt-8 border-t border-neutral-200">
+                  <a
+                    href="https://www.instagram.com/orocafe.ca?igsh=aDl6YmdwYjFxMzVw&utm_source=qr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-col items-center gap-2 group"
+                    aria-label="Instagram Cooperativa"
+                  >
+                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-purple-500 via-rose-500 to-amber-500 flex items-center justify-center text-white group-hover:shadow-lg group-hover:-translate-y-1 transition-all duration-300">
+                      <Instagram size={22} />
+                    </div>
+                    <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-wider">Cooperativa</span>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/coffeetatay?igsh=MWpsZGYwZGo5Mm00aA=="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-col items-center gap-2 group"
+                    aria-label="Instagram Tatay Coffee"
+                  >
+                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-purple-500 via-rose-500 to-amber-500 flex items-center justify-center text-white group-hover:shadow-lg group-hover:-translate-y-1 transition-all duration-300">
+                      <Instagram size={22} />
+                    </div>
+                    <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-wider">Tatay Coffee</span>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/share/1CgdvrrUYc/?mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-col items-center gap-2 group"
+                    aria-label="Facebook Cooperativa"
+                  >
+                    <div className="w-12 h-12 rounded-2xl bg-[#1877F2] flex items-center justify-center text-white group-hover:shadow-lg group-hover:-translate-y-1 transition-all duration-300">
+                      <Facebook size={22} />
+                    </div>
+                    <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-wider">Cooperativa</span>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -176,7 +216,7 @@ export default function Contact() {
       </div>
 
       {/* Offices Slideshow */}
-      <section className="h-[70dvh] w-full relative overflow-hidden flex items-center justify-center">
+      <section className="h-[90dvh] w-full relative overflow-hidden flex items-center justify-center">
         <div className="absolute inset-0 z-0 bg-transparent">
           {offices.map((img, index) => (
             <div
